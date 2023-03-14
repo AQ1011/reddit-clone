@@ -13,7 +13,9 @@ export default function RootLayout({
       </head>
       <body>
         <TopBar></TopBar>
-        {children}
+        <div className='container'>
+          {children}
+        </div>
       </body>
     </html>
   )

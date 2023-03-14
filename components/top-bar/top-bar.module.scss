@@ -16,11 +16,10 @@
         padding-left: 1em;
         padding-right: 1em;
         transition: 0.3s ease-in-out;
-        &:hover {
-            color: black;
-            background-color: white;
-        }
         border-radius: 999px;
+        &:hover {
+            cursor: pointer;
+        }
     }
     .actions {
         display: flex;
@@ -31,17 +30,28 @@
 .search {
     display: flex;
     align-items: center;
-    background-color: #2b2a33;
+    background-color: #5F3F2D;
+    padding-left: 1em;
     border-radius: 999px;
-    padding-right: 0.5em;
     width: 100%;
     max-width: 600px;
+    color: #FFDBCA;
+    justify-self: center;
     input {
         width: 100%;
         outline: none;
         border: none;
         line-height: 2em;
         border-radius: 999px;
-        padding-left: 1em;
+    }
+    button {
+        align-items: center;
+        background-color: #5F3F2D;
+        color: #FFDBCA;
+        display: flex;
+        align-items: center;
+    }
+    &:focus {
+        box-shadow: 0 0 1px #978F8B;
     }
 }

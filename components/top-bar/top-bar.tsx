@@ -7,7 +7,9 @@ export default function TopBar() {
             <span className="material-symbols-outlined">search</span>
             <div className={styles.search}>
                 <input placeholder='Search'/>
-                <span className="material-symbols-outlined">search</span>
+                <button>    
+                    <span className="material-symbols-outlined">search</span>
+                </button>
             </div>
             <div className={styles.actions}>
                 <button>

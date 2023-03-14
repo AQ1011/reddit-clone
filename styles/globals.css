@@ -20,8 +20,8 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: #E8E1DF;
+    background: #1E1B1A;
   }
 }
 .material-symbols-outlined {
@@ -30,4 +30,12 @@ a {
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+button {
+  background-color: #EBBDA5;
+  color: #462919;
+}
+input {
+  background-color: #5F3F2D;
+  color: #FFDBCA;
 }

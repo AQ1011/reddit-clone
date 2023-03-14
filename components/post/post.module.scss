@@ -1,0 +1,27 @@
+.post {
+    border-radius: 1em;
+    padding: 1em;
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(235, 189, 165, 0.05), rgba(235, 189, 165, 0.05)), #1E1B1A;  
+    &:hover { 
+        background: linear-gradient(0deg, rgba(235, 189, 165, 0.08), rgba(235, 189, 165, 0.08)), #1E1B1A;   
+        box-shadow: 0 0 1px #978F8B;
+    }
+}
+.info {
+    padding-bottom: 0.5em;
+}
+.link {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.underline:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.author {
+    font-weight: lighter;
+}
+.title {
+    font-size: 1.2em;
+}
